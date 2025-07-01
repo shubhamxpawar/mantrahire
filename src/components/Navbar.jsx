@@ -1,27 +1,24 @@
-import { NavLink } from 'react-router';
+import { NavLink } from 'react-router-dom';
 
 export const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between px-8 py-4 shadow-md bg-white">
-      {/* Left: Logo and Brand */}
-      <div className="flex items-center space-x-3">
-        <img src="https://i.pinimg.com/736x/53/96/10/539610835d5ce20568c564249afd94e7.jpg" alt="MantraHire Logo" className="h-15 w-15" />
-        <span className="text-[#015eae] font-bold text-2xl"> MantraHire Solutions </span>
+    <nav className="flex flex-wrap items-center justify-between px-4 md:px-8 py-4 shadow-md bg-white">
+      <div className="flex items-center space-x-2 md:space-x-3">
+        <img src="https://i.pinimg.com/736x/53/96/10/539610835d5ce20568c564249afd94e7.jpg" alt="MantraHire Logo" className="h-10 w-10 md:h-12 md:w-12" />
+        <span className="text-[#015eae] font-bold text-lg hidden md:inline-block whitespace-nowrap">MantraHire Solutions</span>
       </div>
 
-      {/* Center: Nav Links (One-liner) */}
-      <div className="space-x-8 font-medium">
-        <NavLink to="/" className="inline-block text-gray-700 hover:text-[#015eae] hover:scale-110 transition-transform duration-300 text-lg">Home</NavLink>
-        <NavLink to="/founders" className="inline-block mx- text-gray-700 hover:text-[#015eae] text-lg hover:scale-110 transition-transform duration-300">Meet Our Founders</NavLink>
-        <NavLink to="/clients" className="inline-block mx- text-gray-700 hover:text-[#015eae] text-lg hover:scale-110 transition-transform duration-300">Our Clients</NavLink>
-        <NavLink to="/services" className="inline-block mx- text-gray-700 hover:text-[#015eae] text-lg hover:scale-110 transition-transform duration-300">Our Services</NavLink>
-        <NavLink to="/careers" className="inline-block mx- text-gray-700 hover:text-[#015eae] text-lg hover:scale-110 transition-transform duration-300">Careers</NavLink>
+      <div className="flex md:space-x-4 space-x-2 lg:space-x-8 font-medium mt-4 md:mt-0 flex-wrap">
+        <NavLink to="/" className="inline-block text-gray-700 hover:text-[#015eae] hover:scale-110 transition-transform duration-300 text-sm sm:text-base md:text-lg whitespace-nowrap">Home</NavLink>
+        <NavLink to="/founders" className="inline-block text-gray-700 hover:text-[#015eae] hover:scale-110 transition-transform duration-300 text-sm sm:text-base md:text-lg whitespace-nowrap">Meet Our Founders</NavLink>
+        <NavLink to="/clients" className="inline-block text-gray-700 hover:text-[#015eae] hover:scale-110 transition-transform duration-300 text-sm sm:text-base md:text-lg whitespace-nowrap">Our Clients</NavLink>
+        <NavLink to="/services" className="inline-block text-gray-700 hover:text-[#015eae] hover:scale-110 transition-transform duration-300 text-sm sm:text-base md:text-lg whitespace-nowrap">Our Services</NavLink>
+        <NavLink to="/careers" className="inline-block text-gray-700 hover:text-[#015eae] hover:scale-110 transition-transform duration-300 text-sm sm:text-base md:text-lg whitespace-nowrap">Careers</NavLink>
       </div>
 
-      {/* Right: Button */}
-      <div>
-        <NavLink to="/contact" className="bg-[#015eae] text-white px-5 py-2 rounded-md font-semibold hover:bg-[#014b8a] transition">Contact us</NavLink>
+      <div className="mt-4 md:mt-0 hidden sm:flex">
+        <NavLink to="/contact" className="bg-[#015eae] text-white px-4 sm:px-5 py-2 rounded-md font-semibold hover:bg-[#014b8a] transition text-sm sm:text-base whitespace-nowrap">Contact us</NavLink>
       </div>
     </nav>
   );
-}
+};
