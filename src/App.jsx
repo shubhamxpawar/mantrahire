@@ -1,7 +1,6 @@
-import { useState } from 'react'
 import './App.css'
 import { Route, Router, Routes, useNavigate } from 'react-router'
-import { Home } from './pages/home'
+import { Home } from './pages/Home'
 import { MeetOurFounders } from './pages/MeetOurFounders'
 import { ContactUs } from './pages/ContactUs'
 import { OurClients } from './pages/OurClients'
