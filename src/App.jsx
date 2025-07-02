@@ -11,7 +11,7 @@ import { Navbar } from './components/Navbar'
 function App() {
 
   return (
-    <div className='bg-slate-400 h-lvh' >
+    <div className='bg-slate-400 h-lvh V-font' >
       
       <Navbar></Navbar>
 
