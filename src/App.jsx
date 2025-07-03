@@ -7,6 +7,7 @@ import { OurClients } from './pages/OurClients'
 import { Careers } from './pages/Careers'
 import { OurServices } from './pages/OurServices'
 import { Navbar } from './components/Navbar'
+import { Footer } from './components/Footer'
 
 function App() {
 
@@ -23,6 +24,9 @@ function App() {
         <Route path='/ourclients' element={<OurClients />}></Route>
         <Route path='/ourservices' element={<OurServices />}></Route>
       </Routes>
+
+      <Footer />
+
     </div>
   )
 }

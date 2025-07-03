@@ -12,29 +12,32 @@ export const DifferenceSection = () => {
             backgroundBlendMode: "overlay",
             backgroundColor: "rgba(0, 0, 0, 0.5)"
         }}>
-            <motion.div initial={{ opacity: 0, x: -80 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.6 }} viewport={{ once: true, amount: 0.7 }} className="max-w-4xl space-y-8">
-                <p className="text-sm text-gray-200 uppercase tracking-wider">What makes us different</p>
-                <h2 className="text-2xl md:text-5xl font-bold">Recruitment Evolved with Purpose</h2>
+            <div initial={{ opacity: 0, x: -80 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.6 }} viewport={{ once: true, amount: 0.7 }} className="max-w-4xl space-y-8">
+                
+                <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.6 }} viewport={{ once: true, amount: 0.7 }}>
+                    <p className="text-sm text-gray-200 uppercase tracking-wider">What makes us different</p>
+                    <h2 className="text-2xl md:text-5xl font-bold">Recruitment Evolved with Purpose</h2>
+                </motion.div>
 
                 <div className="space-y-8 text-base md:text-lg text-gray-100 pt-6">
-                    <div>
+                    <motion.div initial={{ opacity: 0, x: -80 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.6 }} viewport={{ once: true, amount: 0.7 }}>
                         <h3 className="text-xl font-bold text-white mb-3">Human + Tech Harmony</h3>
-                        <p className="mr-2">Our AI-powered tools speed up screening, but we never remove the human touch. Your hiring decisions are powered by insights, not just algorithms.</p>
-                    </div>
+                        <p className="right-4">Our AI-powered tools speed up screening, but we never remove the human touch. <br /> Your hiring decisions are powered by insights, not just algorithms.</p>
+                    </motion.div>
 
-                    <div>
+                    <motion.div initial={{ opacity: 0, x: -60 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.6 }} viewport={{ once: true, amount: 0.7 }}>
                         <h3 className="text-xl font-bold text-white mb-3">People First. Always.</h3>
-                        <p>We focus on creating meaningful connections between employers and candidates. Because happy teams build lasting success.</p>
-                    </div>
+                        <p>We focus on creating meaningful connections between employers and candidates, <br /> Because happy teams build lasting success.</p>
+                    </motion.div>
 
-                    <div>
+                    <motion.div initial={{ opacity: 0, x: -40 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.6 }} viewport={{ once: true, amount: 0.7 }}>
                         <h3 className="text-xl font-semibold text-white mb-3">Indian Roots, Global Vision</h3>
                         <p>Inspired by the values of karma, dharma, and satya, we bring spiritual integrity into every interaction — all while staying globally competitive.</p>
-                    </div>
+                    </motion.div>
                 </div>
 
                 
-            </motion.div>
+            </div>
         </section>
     );
 };
