@@ -12,7 +12,7 @@ export const Navbar = () => {
         <NavLink to="/" className="inline-block text-gray-700 hover:text-[#015eae] hover:scale-110 transition-transform duration-300 text-sm sm:text-base md:text-lg whitespace-nowrap">Home</NavLink>
         <NavLink to="/founders" className="inline-block text-gray-700 hover:text-[#015eae] hover:scale-110 transition-transform duration-300 text-sm sm:text-base md:text-lg whitespace-nowrap">Meet Our Founders</NavLink>
         <NavLink to="/clients" className="inline-block text-gray-700 hover:text-[#015eae] hover:scale-110 transition-transform duration-300 text-sm sm:text-base md:text-lg whitespace-nowrap">Our Clients</NavLink>
-        <NavLink to="/services" className="inline-block text-gray-700 hover:text-[#015eae] hover:scale-110 transition-transform duration-300 text-sm sm:text-base md:text-lg whitespace-nowrap">Our Services</NavLink>
+        <NavLink to="/ourservices" className="inline-block text-gray-700 hover:text-[#015eae] hover:scale-110 transition-transform duration-300 text-sm sm:text-base md:text-lg whitespace-nowrap">Our Services</NavLink>
         <NavLink to="/careers" className="inline-block text-gray-700 hover:text-[#015eae] hover:scale-110 transition-transform duration-300 text-sm sm:text-base md:text-lg whitespace-nowrap">Careers</NavLink>
       </div>
 

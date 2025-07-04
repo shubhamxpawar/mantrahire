@@ -7,7 +7,7 @@ import { LetsBuildSection } from '../components/LetsBuild'
 
 export const Home = () => {
   return (
-    <div  className='pt-20'>
+    <div>
       <HeroSection />
       <AboutUs />
       <DifferenceSection />
