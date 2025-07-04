@@ -14,7 +14,7 @@ function App() {
   console.log("App rendered")
 
   return (
-    <div className='bg-slate-200 min-h-screen flex flex-col V-font' >
+    <div className=' min-h-screen flex flex-col V-font' >
       
       <Navbar></Navbar>
 
