@@ -17,7 +17,7 @@ export const WorkGlance = () => {
         <p className="mt-2 text-gray-600 max-w-3xl mx-"> From a dorm room idea to a growing HR brand, we're proud to build <span className="underline decoration-3 font-semibold decoration-[#3e86c4] inline cursor-default">with heart, hustle, and impact.</span></p>
       </div>
 
-      <Marquee pauseOnHover={true} speed={50} gradient={true} gradientColor="#3e86c4" gradientWidth={75}>
+      <Marquee pauseOnHover={true} speed={50} gradient={true} gradientColor="#3e86c4" gradientWidth={50}>
         {points.map((point, index) => (
           <div key={index} id="marquee" className="bg-[#3e86c4] text-white cursor-default shadow-xl rounded-xl px-6 py-4 mx-4 min-w-[300px] flex items-center justify-center text-center font-medium text-lg hover:scale-105 transition-transform duration-300"> {point} </div>
         ))}
