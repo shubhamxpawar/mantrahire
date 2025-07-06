@@ -9,7 +9,7 @@ export const ContactUs = () => {
 
       {/* header */}
       
-      <div className="bg-[url('/contact.jpg')] bg-center min-h-[390px] bg-no-repeat bg-contain w-full bg-blend-overlay bg-gray-700 flex">
+      <div className="bg-[url('/contact.jpg')] bg-center min-h-[400px] bg-no-repeat bg-contain w-full bg-blend-overlay bg-gray-700 flex">
         <h2 className='mx-auto my-auto text-4xl md:text-6xl text-gray-200 font-extrabold'>Contact Us</h2>
       </div>
 
