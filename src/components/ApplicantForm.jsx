@@ -31,14 +31,9 @@ export const ApplicantForm = () => {
 
     try {
       const res = await axios.post('https://mantra-hire-solutions-backend-v1.vercel.app/api/v1/applicant/applicantRegister', data,{
-                headers: { "Content-Type": "multipart/form-data" },
-                withCredentials: true,
-            }).then(res =>{
-                alert('Application submitted Successfully!')
-            }).catch(e){
-              alert('Failed to Submit');
-              console.log(e.errors);
-            }
+        headers: { "Content-Type": "multipart/form-data" },
+        withCredentials: true,
+      })
       alert('Application sent!')
     } catch (err) {
       console.error(err)
