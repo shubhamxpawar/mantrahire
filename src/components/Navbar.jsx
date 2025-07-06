@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 export const Navbar = () => {
   return (
@@ -17,7 +17,7 @@ export const Navbar = () => {
       </div>
 
       <div className="mt-4 md:mt-0 hidden sm:flex">
-        <NavLink to="/contactus" className=" bg-amber-600 hover:bg-amber-700 text-white px-4 sm:px-5 py-2 rounded-md font-semibold transition text-sm sm:text-base whitespace-nowrap">Contact us</NavLink>
+        <Link to="/contactus" className=" bg-amber-600 hover:bg-amber-700 text-white px-4 sm:px-5 py-2 rounded-md font-semibold transition text-sm sm:text-base whitespace-nowrap">Contact us</Link>
       </div>
     </nav>
   );
