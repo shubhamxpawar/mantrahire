@@ -105,7 +105,7 @@ export const OurServices = () => {
             {openIndex === idx && (
               <motion.div className="px-6 py-4 whitespace-pre-wrap bg-white text-gray-800" initial={{ opacity: 0, y: -100, scale: 0.9 }} whileInView={{ opacity: 1, y: 0, scale: 1 }} transition={{ duration: 0.4, ease: "easeOut" }} viewport={{ once: true }}>
                 <h3 className="text-base font-bold text-[#3e86c4] mb-3">What We Do:</h3>
-                <p>{item.content}</p>
+                <p className='text-sm md:text-base '>{item.content}</p>
               </motion.div>
             )}
           </div>

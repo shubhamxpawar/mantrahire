@@ -19,7 +19,7 @@ export const WorkGlance = () => {
 
       <Marquee pauseOnHover={true} speed={50} gradient={false} gradientColor="#3e86c4" gradientWidth={50}>
         {points.map((point, index) => (
-          <div key={index} id="marquee" className="bg-[#3e86c4] text-white cursor-default shadow-xl rounded-xl px-6 py-4 mx-4 min-w-[300px] flex items-center justify-center text-center font-medium text-lg hover:scale-105 transition-transform duration-300"> {point} </div>
+          <div key={index} id="marquee" className="bg-[#3e86c4] text-white cursor-default shadow-xl rounded-xl px-3 md:px-6 py-2 md:py-4 mx-4 min-w-[300px] flex items-center justify-center text-center font-medium text-sm md:text-lg hover:scale-105 transition-transform duration-300"> {point} </div>
         ))}
       </Marquee>
     </section>

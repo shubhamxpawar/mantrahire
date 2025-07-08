@@ -4,7 +4,7 @@ export const MottoSection = () => {
   return (
     <section className="w-full py-6 pt-25 px-4 md:px-12 mx-auto bg-white">
       <h2 className="text-3xl md:text-4xl font-bold text-center text-[#015eae] mb-10">Our Motto</h2>
-        <div className="bg-orange-50 rounded-lg shadow-xl p-8 md:p-12 flex flex-col md:flex-row justify-between items-start max-w-5xl mx-auto">
+        <div className="bg-orange-50 rounded-lg shadow-xl p-8 md:p-12 flex flex-col md:flex-row space-y-8 md:space-y-0 justify-between items-start max-w-5xl mx-auto">
         
             {/* Left: Hiring with Purpose */}
             <motion.div className="flex-1" initial={{ opacity: 0, x: -80 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.6 }} viewport={{ once: true, amount: 0.7 }}>
