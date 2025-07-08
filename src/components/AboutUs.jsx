@@ -5,14 +5,14 @@ export const AboutUs = () => {
     const illimage = "https://img.freepik.com/free-vector/job-interview-process-hiring-new-employees-hr-specialist-cartoon-character-talking-new-candidatee-recruitment-employment-headhunting-concept-illustration_335657-2034.jpg?semt=ais_hybrid&w=740"
 
     return (
-        <section className="w-full px-6 py-16 md:px-16 bg-white">
+        <section className="w-full px-6 py-6 md:py-16 md:px-16 bg-white">
             <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10">
             
                 {/* Left Content */}
 
                 <div className="md:w-7/12 space-y-6">
-                    <p className="text-[#015eae] text-md font-semibold">About Us</p>
-                    <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#02286d] leading-tight"> MantraHire blends timeless values with modern HR intelligence.</h2>
+                    <p className="text-[#015eae] text-2xl md:text-3xl font-bold">About Us</p>
+                    <h2 className="text-xl md:text-2xl font-semibold text-[#02286d] leading-tight"> MantraHire blends timeless values with modern HR intelligence.</h2>
                     <p className="text-gray-700 text-sm sm:text-base leading-relaxed whitespace-pre-line">
                     At MantraHire Solutions, we believe that hiring is more than filling a vacancy — it's a sacred alignment of purpose, potential, and people. <br /> <br />
 

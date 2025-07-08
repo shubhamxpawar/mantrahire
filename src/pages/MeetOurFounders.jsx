@@ -27,12 +27,12 @@ export const MeetOurFounders = () => {
   ];
 
   return (
-    <div className="justify-center gap-6 pb-8">
+    <div className="w-full justify-center gap-6 pb-8 overflow-x-hidden">
 
       {/* heading */}
 
-      <div className='w-screen h-[170px] flex mx-54 items-center'>
-        <h2 className='underline font-extrabold decoration-amber-500 decoration-6 text-[#003b6f] text-5xl shadow-2xl'>Meet Our Founders</h2>
+      <div className='w-full h-[170px] flex items-center'>
+        <h2 className='underline font-extrabold decoration-amber-500 decoration-4 text-[#003b6f] mx-auto text-2xl md:text-3xl shadow-2xl'>Meet Our Founders</h2>
       </div>
 
       {/* founders list */}

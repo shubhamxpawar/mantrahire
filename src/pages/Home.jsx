@@ -8,7 +8,7 @@ import { Helmet } from 'react-helmet'
 
 export const Home = () => {
   return (
-    <div>
+    <div className='w-full overflow-x-hidden'>
 
       <Helmet>
         <title>Home | Hiring Solutions</title>

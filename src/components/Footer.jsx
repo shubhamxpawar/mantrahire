@@ -2,14 +2,14 @@ import { Link } from "react-router";
 
 export const Footer = () => {
   return (
-    <footer className="bg-[#3e86c4] text-gray-200 py-6 px-4 md:px-12 justify-end">
+    <footer className="bg-[#3e86c4] text-gray-200 py-6 px-4 md:px-12 justify-end w-full overflow-x-hidden max-w-full">
       <div className="flex flex-col md:flex-row space-y-4 justify-between items-center w-full">
         <img src="https://i.pinimg.com/736x/53/96/10/539610835d5ce20568c564249afd94e7.jpg" alt="MantraHire Logo" className="h-10" />
 
-        <div className="flex gap-6 text-sm ml-18">
-          <Link to="/founders" className="hover:text-white transition">About Us</Link>
+        <div className="flex gap-6 text-sm lg:ml-20">
+          <Link to="/meetourfounders" className="hover:text-white transition">About Us</Link>
           <Link to="/" className="hover:text-white transition">Privacy Policy</Link>
-          <Link to="/contact" className="hover:text-white transition">Contact Us</Link>
+          <Link to="/contactus" className="hover:text-white transition">Contact Us</Link>
         </div>
 
         <div className="flex gap-4">

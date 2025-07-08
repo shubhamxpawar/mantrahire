@@ -8,6 +8,8 @@ import { Careers } from './pages/Careers'
 import { OurServices } from './pages/OurServices'
 import { Navbar } from './components/Navbar'
 import { Footer } from './components/Footer'
+import ScrollToTop from './components/ScrollToTop'
+
 
 function App() {
 
@@ -15,9 +17,9 @@ function App() {
 
   return (
     <div className=' min-h-screen flex flex-col V-font' >
-      
-      <Navbar></Navbar>
 
+      <Navbar></Navbar>
+      <ScrollToTop />
       <main className='pt-20 flex-grow'>
         <Routes>
           <Route path='/' element={<Home />}></Route>

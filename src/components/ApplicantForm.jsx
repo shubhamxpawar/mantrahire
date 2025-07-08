@@ -42,7 +42,7 @@ export const ApplicantForm = () => {
   }
 
   return (
-    <motion.form onSubmit={handleSubmit} className='space-y-4' initial={{ opacity: 0, x: -80 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.6 }} viewport={{ once: true, amount: 0.7 }}>
+    <motion.form onSubmit={handleSubmit} className='space-y-4 full' initial={{ opacity: 0, x: -80 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.6 }} viewport={{ once: true, amount: 0.7 }}>
       <h2 className='text-3xl font-bold text-[#003b6f] mb-8'>For Applicants</h2>
 
       <div className='grid grid-cols-1 md:grid-cols-2 gap-4 mb-4'>
@@ -64,7 +64,7 @@ export const ApplicantForm = () => {
 
       <textarea name='workProfile' rows='4' placeholder='Work Profile Interested In' value={formData.workProfile} onChange={handleChange} className='w-full p-2 border rounded mb-6'></textarea>
 
-      <button type='submit' className='bg-[#3e86c4] text-white px-6 py-2 rounded hover:bg-blue-700 cursor-pointer'>
+      <button type='submit' className='bg-[#3e86c4] text-white px-6 py-2 rounded hover:bg-blue-700 cursor-pointer w-full '>
         Send Application
       </button>
     </motion.form>
