@@ -1,4 +1,5 @@
 import { Link } from 'react-router';
+import { HiArrowRight } from "react-icons/hi";
 
 export const HeroSection = () => {
 
@@ -10,7 +11,7 @@ export const HeroSection = () => {
                 <div className="max-w-2xl text-white space-y-2 md:space-y-6">
                     <h1 className="M-font sm:text-[20px] md:text-5xl font-bold leading-tight">Hiring with Purpose, Powered by Mantra </h1>
                     <p className="sm:text-[20px] md:text-5xl font-medium text-nowrap">Find Opportunities that fit you.</p>
-                    <Link to="/careers" className="inline-block bg-amber-600 hover:bg-amber-700 text-white font-semibold md:px-6 px-3 md:py-2 py-1 text-sm md:text-lg mt-4 rounded-md transition-transform duration-300 hover:scale-105"> Find Jobs → </Link>
+                    <Link to="/careers" className="flex w-28 md:w-40 text-nowrap items-center bg-amber-600 hover:bg-amber-700 text-white font-semibold px-2 md:px-6 md:py-2 py-2 text-sm md:text-lg mt-4 rounded-md transition-transform duration-300 hover:scale-105"> Find Jobs <HiArrowRight className='ml-2'/> </Link>
                 </div>
             </div>
         </section>
