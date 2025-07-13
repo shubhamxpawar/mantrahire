@@ -26,7 +26,7 @@ export const FoundersVision = () => {
         <h2 className=" text-2xl md:text-4xl font-bold mb-8 text-[#003b6f]">The Vision Behind MantraHire</h2>
         <p className="text-gray-700 leading-relaxed text-wrap">
           We're not just building an HR company — we're building a movement.
-          As students and first-gen entrepreneurs, we launched MantraHire to blend
+          As first-gen entrepreneurs, we launched MantraHire to blend
           cultural insight with modern recruitment intelligence. Our mission is
           to make hiring more human, ethical, and smart. With fresh ideas and grounded
           values, we're solving hiring challenges with empathy, innovation, and purpose.

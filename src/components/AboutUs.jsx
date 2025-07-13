@@ -1,8 +1,10 @@
 import React from 'react';
+import { useNavigate } from 'react-router';
 
 export const AboutUs = () => {
 
     const illimage = "https://img.freepik.com/free-vector/job-interview-process-hiring-new-employees-hr-specialist-cartoon-character-talking-new-candidatee-recruitment-employment-headhunting-concept-illustration_335657-2034.jpg?semt=ais_hybrid&w=740"
+    const navigate = useNavigate();
 
     return (
         <section className="w-full px-6 py-6 md:py-16 md:px-16 bg-white">
@@ -20,7 +22,7 @@ export const AboutUs = () => {
 
                     We are not just another HR firm. We're your people partner, your growth ally, and your talent guide. Whether you're a startup shaping your first team or an enterprise scaling to the next level, we help you build the right team, not just a bigger one.
                     </p>
-                    <button className="bg-amber-600 hover:bg-amber-700 cursor-pointer text-white font-semibold px-6 py-2 rounded-md transition duration-300">Know More</button>
+                    <button className="bg-amber-600 hover:bg-amber-700 cursor-pointer text-white font-semibold px-6 py-2 rounded-md transition duration-300" onClick={() => navigate('/meetourfounders')}>Know More</button>
                 </div>
 
                 {/* Right Image */}

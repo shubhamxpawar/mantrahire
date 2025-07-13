@@ -17,12 +17,12 @@ export const MeetOurFounders = () => {
     {
       name: 'Abhishek Gautam',
       imgurl: Abhishek,
-      position: 'Co-Founder',
+      position: 'Co-Founder & Head of Operations',
     },
     {
       name: 'Sakshi Shinde',
       imgurl: Sakshi,
-      position: 'Co-Founder',
+      position: "Co-Founder & Head of People & Culture",
     },
   ];
 
@@ -32,7 +32,7 @@ export const MeetOurFounders = () => {
       {/* heading */}
 
       <div className='w-full h-[170px] flex items-center'>
-        <h2 className='underline font-extrabold decoration-amber-500 decoration-4 text-[#003b6f] mx-auto text-2xl md:text-3xl shadow-2xl'>Meet Our Founders</h2>
+        <h2 className='underline font-extrabold decoration-amber-500 decoration-4 text-[#003b6f] mx-auto text-2xl md:text-4xl shadow-2xl'>Meet Our Founders</h2>
       </div>
 
       {/* founders list */}
