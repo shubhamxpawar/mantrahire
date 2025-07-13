@@ -7,7 +7,7 @@ export const ContactCard = () => {
     <motion.div className='flex flex-col h-[250px] lg:h-full p-10 lg:p-20  text-[#082946] bg-amber-500 rounded justify-center' initial={{ opacity: 0, x: 80 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.6 }} viewport={{ once: true, amount: 0.7 }}>
       <h2 className='text-xl lg:text-3xl font-bold mb-6 underline decoration-5 decoration-amber-500'>Get in touch</h2>
 
-      <a className='flex flex-row items-center gap-2 mb-4' href="mailto:mantrahiresolutions@gmail.com">
+      <a className='flex flex-row items-center gap-2 mb-4' href="https://mail.google.com/mail/?view=cm&fs=1&to=mantrahiresolutions@gmail.com">
         <Mail /> mantrahiresolutions@gmail.com
       </a>
       <p className='flex flex-col gap-2 mb-8'>
