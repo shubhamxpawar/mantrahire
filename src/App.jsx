@@ -8,6 +8,7 @@ import { Careers } from './pages/Careers'
 import { OurServices } from './pages/OurServices'
 import { Navbar } from './components/Navbar'
 import { Footer } from './components/Footer'
+import AdminPanel from './pages/AdminPanel'
 import ScrollToTop from './components/ScrollToTop'
 
 
@@ -28,6 +29,7 @@ function App() {
           <Route path='/meetourfounders' element={<MeetOurFounders />}></Route>
           <Route path='/ourclients' element={<OurClients />}></Route>
           <Route path='/ourservices' element={<OurServices />}></Route>
+          <Route path='/admin' element={<AdminPanel />}></Route>
         </Routes>
       </main>
 
