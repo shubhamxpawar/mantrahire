@@ -10,16 +10,16 @@ export const Navbar = () => {
   return (
     <nav className="w-[100vw] flex items-center justify-between px-4 md:px-8 py-4 shadow-md bg-white border-b-5 border-[#3e86c4] z-50 fixed">
       {/* Logo and Brand Name */}
-      <div className="flex items-center space-x-2 md:space-x-3">
+      <Link className="flex items-center space-x-2" to="/">
         <img
-          src="https://i.pinimg.com/736x/53/96/10/539610835d5ce20568c564249afd94e7.jpg"
+          src="/mhs_logo.png"
           alt="MantraHire Logo"
-          className="h-10 w-10 md:h-12 md:w-12"
+          className="h-16 w-16 md:h-16 md:w-16"
         />
         <span className="text-[#015eae] font-bold text-base sm:text-lg md:text-xl whitespace-nowrap">
           MantraHire Solutions
         </span>
-      </div>
+      </Link>
 
       {/* Hamburger for sm and md */}
       <div className="lg:hidden">

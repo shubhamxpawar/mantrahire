@@ -1,10 +1,13 @@
+import React from "react";
 import { Link } from "react-router";
 
 export const Footer = () => {
+
   return (
     <footer className="bg-[#3e86c4] text-gray-200 py-6 px-4 md:px-12 justify-end w-full overflow-x-hidden max-w-full">
       <div className="flex flex-col md:flex-row space-y-4 justify-between items-center w-full">
-        <img src="https://i.pinimg.com/736x/53/96/10/539610835d5ce20568c564249afd94e7.jpg" alt="MantraHire Logo" className="h-10" />
+        <Link to="/"><img src="/mhs_logo.png" alt="MantraHire Logo" className="h-14 shadow-md" /></Link>
+        
 
         <div className="flex gap-6 text-sm lg:ml-20">
           <Link to="/meetourfounders" className="hover:text-white transition">About Us</Link>
