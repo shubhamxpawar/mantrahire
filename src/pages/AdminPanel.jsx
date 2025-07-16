@@ -44,7 +44,7 @@ const AdminPanel = () => {
   useEffect(() => {
     axios
       .get("https://mantra-hire-solutions-backend-v1.vercel.app/api/v1/admin/dashboard/show")
-      .then((res) => setSubmissions(res.data))
+      .then((res) => setSubmissions(res.data.data))
       .catch((err) => console.error("Failed to fetch submissions:", err));
   }, []);
 
