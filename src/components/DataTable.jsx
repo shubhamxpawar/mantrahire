@@ -11,20 +11,20 @@ export const DataTable = (props) => {
                     <th className="py-2 ">Job/Internship</th>
                     <th className="py-2 ">WFH/In-Office</th>
                     <th className="py-2 ">Resume</th>
-                    <th className="py-2 ">Date</th>
+                    {/* <th className="py-2 ">Date</th> */}
                 </tr>
             </thead>
             <tbody className='text-center'>
                 {props.sub.map((entry, index) => (
                 <tr key={index} className="border-b hover:bg-gray-50">
-                    <td className="py-2">{entry.name}</td>
+                    <td className="py-2">{entry.fullName}</td>
                     <td className="py-2">{entry.email}</td>
                     <td className="py-2">{entry.jobType}</td>
-                    <td className="py-2">{entry.workType}</td>
+                    <td className="py-2">{entry.workProfile}</td>
                     <td className="py-2">
                         <a href={entry.resume} target="_blank" rel="noopener noreferrer" className="text-blue-600 underline cursor-pointer"> View </a>
                     </td>
-                    <td className="py-2">{new Date(entry.createdAt).toLocaleString()}</td>
+                    {/* <td className="py-2">{new Date(entry.createdAt).toLocaleString()}</td> */}
                 </tr>
                 ))}
             </tbody>
