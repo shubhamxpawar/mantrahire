@@ -14,7 +14,7 @@ export const Navbar = () => {
         <img
           src="/mhs_logo.png"
           alt="MantraHire Logo"
-          className="h-16 w-16 md:h-16 md:w-16"
+          className="h-16 w-16 md:h-16 md:w-16 bg-black rounded-2xl"
         />
         <span className="text-[#015eae] font-bold text-base sm:text-lg md:text-xl whitespace-nowrap">
           MantraHire Solutions
