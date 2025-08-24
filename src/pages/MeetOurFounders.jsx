@@ -5,7 +5,7 @@ import { FoundersVision } from '../components/FounderVision';
 import { WorkGlance } from '../components/WorkAtGlance';
 import Himanshu from '../assets/Himanshu_Shukla.jpg'
 import Abhishek from '../assets/Abhishek_Gautam.jpg'
-import Sakshi from '../assets/Sakshi_Shinde.jpg'
+
 
 export const MeetOurFounders = () => {
   const founders = [
@@ -18,12 +18,7 @@ export const MeetOurFounders = () => {
       name: 'Abhishek Gautam',
       imgurl: Abhishek,
       position: 'Co-Founder & Head of Operations',
-    },
-    {
-      name: 'Sakshi Shinde',
-      imgurl: Sakshi,
-      position: "Co-Founder & Head of People & Culture",
-    },
+    }
   ];
 
   return (
