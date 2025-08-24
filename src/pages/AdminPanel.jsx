@@ -12,7 +12,7 @@ const AdminPanel = () => {
         const updatedData = res.data.data.map((item) => {
           // Convert the buffer to Blob and create a downloadable URL
           if (item.resume && item.resume.data) {
-            const blob = new Blob([new Uint8Array(item.resume.data)], { type: "application/pdf" });
+            const blob = new Blob([new Uint8Array(item.resume)], { type: "application/pdf" });
             const url = URL.createObjectURL(blob);
             return { ...item, resumeUrl: url };
           }
