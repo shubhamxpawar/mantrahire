@@ -10,6 +10,7 @@ import { Navbar } from './components/Navbar'
 import { Footer } from './components/Footer'
 import AdminPanel from './pages/AdminPanel'
 import ScrollToTop from './components/ScrollToTop'
+import NotFound from './pages/NotFound'
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
           <Route path='/ourclients' element={<OurClients />}></Route>
           <Route path='/ourservices' element={<OurServices />}></Route>
           <Route path='/admin' element={<AdminPanel />}></Route>
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
 
