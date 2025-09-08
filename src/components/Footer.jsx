@@ -18,7 +18,7 @@ export const Footer = () => {
         <div className="flex gap-4">
           <a className="h-8 w-8 hover:-translate-y-2 transition-transform duration-450" target="_blank" href="https://www.instagram.com/mantrahire_solutions/"><img src="https://cdn1.iconfinder.com/data/icons/social-media-rounded-corners/512/Rounded_Instagram_svg-512.png" alt="Instagram"/></a>
           <a className="h-8 w-8 hover:-translate-y-2 transition-transform duration-450" target="_blank" href="https://facebook.com"><img src="https://cdn1.iconfinder.com/data/icons/social-media-rounded-corners/512/Rounded_Facebook_svg-512.png" alt="Facebook"/></a>
-          <a className="h-8 w-8 hover:-translate-y-2 transition-transform duration-450" target="_blank" href="https://www.linkedin.com/in/mantrahire-solutions-4b58a5371/"><img src="https://cdn1.iconfinder.com/data/icons/social-media-rounded-corners/512/Rounded_Linkedin2_svg-512.png" alt="LinkedIn"/></a>
+          <a className="h-8 w-8 hover:-translate-y-2 transition-transform duration-450" target="_blank" href="https://www.linkedin.com/company/108560961/admin/dashboard/"><img src="https://cdn1.iconfinder.com/data/icons/social-media-rounded-corners/512/Rounded_Linkedin2_svg-512.png" alt="LinkedIn"/></a>
         </div>
       </div>
 

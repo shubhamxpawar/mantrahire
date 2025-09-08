@@ -8,14 +8,14 @@ export const MottoSection = () => {
         
             {/* Left: Hiring with Purpose */}
             <motion.div className="flex-1" initial={{ opacity: 0, x: -80 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.6 }} viewport={{ once: true, amount: 0.7 }}>
-                <h2 className="text-xl md:text-3xl font-semibold text-[#015eae] mb-2 ">“Hiring with Purpose, </h2>
-                <p className="text-gray-700"> Every placement and strategy is intentional, ethical, <br /> and value-aligned — not just fast or transactional.</p>
+                <h2 className="text-xl md:text-3xl font-semibold text-[#015eae] mb-2 ">Training with Purpose, </h2>
+                <p className="text-gray-700"> Every training session we deliver is outcome-driven, <br /> building skills that matter.</p>
             </motion.div>
 
             {/* Right: Powered by Mantra */}
             <motion.div className="flex-1" initial={{ opacity: 0, x: 80 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.6 }} viewport={{ once: true, amount: 0.7 }}>
-                <h2 className="text-xl md:text-3xl font-semibold text-[#015eae] mb-2">Powered by Mantra”</h2>
-                <p className="text-gray-700 list-disc list-inside space-y-2"> The <strong>core belief</strong> or guiding principle (the “mantra”) behind each hiring strategy</p>
+                <h2 className="text-xl md:text-3xl font-semibold text-[#015eae] mb-2">Hiring by Mantra”</h2>
+                <p className="text-gray-700 list-disc list-inside space-y-2"> Every hiring solution is guided by our <strong> “mantra” </strong> intentional, ethical, and value-aligned.</p>
             </motion.div>
 
         </div>
